@@ -1,0 +1,15 @@
+/* Aplicar box-sizing a todos los elementos */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Aquí termina el snippet de Paul Iris */
+
+.nombre-sitio {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
